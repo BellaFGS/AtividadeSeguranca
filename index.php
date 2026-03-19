@@ -14,7 +14,7 @@
             
             .container{display: flex; flex-direction: column; align-items: center; justify-content: center;}
             .logo img{ margin-bottom:30px; width: 180px; }
-            .card{ background:#fff; padding:2.5rem; width:400px; border-radius:10px; border-color: #ededed;  }
+            .card{ background:#fff; padding:2.5rem; width:440px; border-radius:10px; border-color: #ededed;  }
             .card h2{ font-size:28px; margin-bottom:5px; }
             .subtitle{ color:#000; margin-bottom:20px; }
             .forgot{ display:block; font-size:16px; color:#6d6d6d; margin-bottom:20px; text-decoration:none; border-bottom: #00a470 solid 2px; width: 150px;  }
@@ -30,10 +30,10 @@
             .divider::before, .divider::after{ content:""; flex:1; height:2px; background:#ddd; margin:0 10px; }
             .google-btn{ background:#eee; display:flex; align-items:center; justify-content:center; gap:10px; }
             .google-btn img{ width:18px; }
-            .captcha{ font-size:12px; color:#777; margin-top:15px; }
-            .footer{ margin-top:20px; font-size:13px; color:#777; }
+            .captcha{ font-size:0.875rem; color:#777; margin-top:15px; }
+            .footer{ margin-top:20px; font-size:0.875rem; color:#777; }
             .footer a { margin:0 10px; text-decoration:none; color:#777; margin-top: 5px; }
-            .footer a:hover { text-decoration:underline; }
+            .footer a:active { text-decoration:underline; }
         </style>
     </head>
     <body>
