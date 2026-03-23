@@ -1,5 +1,6 @@
 <?php
     session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +59,7 @@
 
                 <form action="cadastro.php" method="post">
                     <div class="form-floating mb-3 div-input">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="floatingInput" name="email">
                         <label for="floatingInput input">Email:<span class="red-span">*</span></label>
                     </div>
                     <div class="div-esqueci-senha">
