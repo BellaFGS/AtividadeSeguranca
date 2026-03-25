@@ -21,7 +21,7 @@
             .logo img{ margin-bottom:30px; width: 180px; }
             .card{ background:#fff; padding:2.5rem; width:440px; height:535px; border-radius:10px; border-color: #ededed; margin-bottom: 20px; }
             .card h1{ font-size:34px; margin-bottom:5px; color: #000; font-weight: 100;}
-            .subtitle{ color:#000; margin-bottom:20px; }
+            .subtitle{ color:#000; margin-bottom:20px;}
             .forgot{ display:block; font-size:16px; color:#6d6d6d; margin-bottom:20px; text-decoration:none; border-bottom: #00a470 solid 3px; width: 150px; }
             
             .div-esqueci-senha{display: flex; align-items: center; justify-content: center;}
