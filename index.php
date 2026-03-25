@@ -59,7 +59,7 @@
 
                 <form action="cadastro.php" method="post">
                     <div class="form-floating mb-3 div-input">
-                        <input type="email" class="form-control" id="floatingInput" name="email">
+                        <input type="email" class="form-control" id="floatingInput" name="email" placeholder="a">
                         <label for="floatingInput input">Email:<span class="red-span">*</span></label>
                     </div>
                     <div class="div-esqueci-senha">
