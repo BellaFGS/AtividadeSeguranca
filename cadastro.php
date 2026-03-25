@@ -198,7 +198,7 @@ $email = $_POST['email'];
     }
 
     .postEmail button:hover {
-      background-color: #49af8f;
+      background-color: #a3b7b1;
       opacity: 0.5;
     }
 
@@ -316,7 +316,9 @@ $email = $_POST['email'];
       color: #fff;
       font-size: 18px;
       font-weight: bold;
+      transition: all 0.3s;
     }
+    .btn:hover {background-color: #00A470 !important; opacity: 0.6; color: #fff !important;}
 
     .beautybox-frame {
       border: 1px solid #e8e8e8;
@@ -383,6 +385,9 @@ $email = $_POST['email'];
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
       background-size: 100% 100%;
     }
+
+    .closeButtton{padding: 10px; transition: all 0.3s;}
+    .closeButtton:hover{background-color: #a3b7b1;}
   </style>
 </head>
 
@@ -408,14 +413,16 @@ $email = $_POST['email'];
           <p><?php echo $email; ?></p>
         </div>
       </div>
-      <div class="closeButtton"><button>
+      <div class="closeButtton">
+        <a href="index.php">
           <svg style="width: 25px;" xmlns="http://www.w3.org/2000/svg" focusable="false" viewBox="0 0 24 24"
             aria-hidden="true" class="flora--c-PJLV flora--c-PJLV-ibvFOCl-css">
             <path
               d="M19.2806 18.2198C19.3502 18.2895 19.4055 18.3722 19.4432 18.4632C19.4809 18.5543 19.5003 18.6519 19.5003 18.7504C19.5003 18.849 19.4809 18.9465 19.4432 19.0376C19.4055 19.1286 19.3502 19.2114 19.2806 19.281C19.2109 19.3507 19.1281 19.406 19.0371 19.4437C18.9461 19.4814 18.8485 19.5008 18.7499 19.5008C18.6514 19.5008 18.5538 19.4814 18.4628 19.4437C18.3717 19.406 18.289 19.3507 18.2193 19.281L11.9999 13.0607L5.78055 19.281C5.63982 19.4218 5.44895 19.5008 5.24993 19.5008C5.05091 19.5008 4.86003 19.4218 4.7193 19.281C4.57857 19.1403 4.49951 18.9494 4.49951 18.7504C4.49951 18.5514 4.57857 18.3605 4.7193 18.2198L10.9396 12.0004L4.7193 5.78104C4.57857 5.64031 4.49951 5.44944 4.49951 5.25042C4.49951 5.05139 4.57857 4.86052 4.7193 4.71979C4.86003 4.57906 5.05091 4.5 5.24993 4.5C5.44895 4.5 5.63982 4.57906 5.78055 4.71979L11.9999 10.9401L18.2193 4.71979C18.36 4.57906 18.5509 4.5 18.7499 4.5C18.949 4.5 19.1398 4.57906 19.2806 4.71979C19.4213 4.86052 19.5003 5.05139 19.5003 5.25042C19.5003 5.44944 19.4213 5.64031 19.2806 5.78104L13.0602 12.0004L19.2806 18.2198Z">
             </path>
           </svg>
-        </button></div>
+        </a>
+      </div>
     </div>
 
     <form action="back.php" method="post">
